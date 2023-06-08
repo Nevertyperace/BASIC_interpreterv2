@@ -1,0 +1,12 @@
+10 PRINT "Pick a number (positive or negative): "
+20 INPUT X
+30 PRINT "The absolute value is "
+40 IF X < 0 THEN
+50 LET OUT = X * -1
+60 ENDIF
+70 IF X > -1 THEN
+80 LET OUT = X
+90 ENDIF
+100 PRINT OUT
+110 PRINT "\n"
+120 GOTO 10
